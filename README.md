@@ -52,6 +52,7 @@ A URL shortener service creates a short url/aliases/tiny url against a long url.
 - Summary
     - Assuming 1 Billion new URL shortenings per month and 100:1 read:write (Shortening/Redirection) ratio
 
+
     Category | Calculation | Estimate
     ---- | ---- | ----
     New URLs | 1 Billion / (30 days * 24 hours * 3600 seconds) | 400 /s
